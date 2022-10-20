@@ -5,6 +5,14 @@ EEG source localization remains a challenging problem given the uncertain conduc
 
 <img src="figures/Figure 1.png" width="708"/>
 
+\begin{equation}
+	\mathbf{X}_{t+1} = f(\mathbf{X}_t, t)\text{d}t + g(\mathbf{X}_t, t)\sqrt{\Delta t}\mathbf{W}_t
+\end{equation}
+where $\mathbf{W}_k$ is the standard Gaussian random variable. The objective function for training SDE-Net is expressed as 
+\begin{equation}
+\text{min}_{\theta_f}\mathbb{E}_{x_0}\mathbb{E}\left(L \left(\mathbf{X_T}\right)\right) + \text{max}_{\theta_g}\mathbb{E}_{x_0}g\left(x_0; \theta_g\right)  
+\end{equation}
+
 This study used the Neural Stochastic Differential Equations Network (SDE-Net), a combination of dynamical systems and deep learning techniques that utilizes the Wiener process to minimize conductivity uncertainties in the VCM and improve the inverse problem. Results revealed that SDE-Net generated a lower localization error rate in the inverse problem compared to Bayesian techniques. Future studies may employ new stochastic dynamical systems-based techniques as a UQ technique to address further uncertainties in the EEG Source Localization problem. 
 D:\dsai-thesis\results\potentials
 
