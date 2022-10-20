@@ -17,3 +17,5 @@ The forward problem is mathematically expressed as $\Phi = LJ(r)$ where it requi
 
 ## EEG Inverse Problem
 The inverse problem used the Matching Pursuit Algorithm (MPA) to compute estimated source distribution.
+
+<img src="figures/Figure 4.jpg" width="708"/>
