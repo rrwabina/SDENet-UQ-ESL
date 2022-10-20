@@ -11,8 +11,6 @@ This study used the Neural Stochastic Differential Equations Network (SDE-Net), 
 <img src="figures/Figure 2.png" width="708"/>
 
 ## EEG Forward Problem
-The forward problem is mathematically expressed as
-$$ \Phi = \mathbf{LJ(r)} $$
-where it requires to calculate the electrical potentials $\Phi$ $(V)$, lead field matrix $L$ $(V/m)$, and the current density $J$ $(A/m^2)$ located at the source position $r$ ($mm$)
+The forward problem is mathematically expressed as $ \Phi = \mathbf{LJ(r)} $ where it requires to calculate the electrical potentials $\Phi$ $(V)$, lead field matrix $L$ $(V/m)$, and the current density $J$ $(A/m^2)$ located at the source position $r$ ($mm$)
 
 <img src="figures/Figure 3.gif" width="708"/>
