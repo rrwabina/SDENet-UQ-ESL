@@ -14,3 +14,6 @@ This study used the Neural Stochastic Differential Equations Network (SDE-Net), 
 The forward problem is mathematically expressed as $\Phi = LJ(r)$ where it requires to calculate the electrical potentials $\Phi$ $(V)$, lead field matrix $L$ $(V/m)$, and the current density $J$ $(A/m^2)$ located at the source position $r$ ($mm$)
 
 <img src="figures/Figure 3.gif" width="708"/>
+
+## EEG Inverse Problem
+The inverse problem used the Matching Pursuit Algorithm (MPA) to compute estimated source distribution.
