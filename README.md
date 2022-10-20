@@ -1,6 +1,8 @@
 # SDENet-UQ-ESL
 ## SDENet as Uncertainty Quantification Method for EEG Source Localization
 
+UPDATE: [Paper Under Peer-Review]
+
 EEG source localization remains a challenging problem given the uncertain conductivity values of the volume conductor models (VCMs). As uncertain conductivities vary across people, they may considerably impact the forward and inverse solutions of the EEG, leading to an increase in localization mistakes and misdiagnoses of brain disorders. Calibration of conductivity values using uncertainty quantification (UQ) techniques is a promising approach to reduce localization errors. The widely-known UQ methods involve Bayesian approaches, which utilize prior conductivity values to derive their posterior inference and estimate their optimal calibration. However, these approaches have two significant drawbacks: solving for posterior inference is intractable, and choosing inappropriate priors may lead to increased localization mistakes. 
 
 <img src="figures/Figure 1.png" width="708"/>
