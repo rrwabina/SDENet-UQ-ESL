@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-\
 '''
     Functions for calculating dA/dt fields in mesh nodes from .ccd or nifti coil files
 '''
