@@ -22,7 +22,7 @@ The inverse problem used the Matching Pursuit Algorithm (MPA) to compute estimat
 
 <img src="figures/Figure 4.JPG" width="708"/>
 
-<code> 
+```
 @article{wabina2022neural,
   title={Neural stochastic differential equations network as uncertainty quantification method for EEG source localization},
   author={Wabina, Romen Samuel and Silpasuwanchai, Chaklam},
@@ -30,4 +30,4 @@ The inverse problem used the Matching Pursuit Algorithm (MPA) to compute estimat
   year={2022},
   publisher={IOP Publishing}
 }
-</code>
+```
