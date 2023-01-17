@@ -1,5 +1,5 @@
 # SDENet-UQ-ESL
-## SDENet as Uncertainty Quantification Method for EEG Source Localization
+## [Stochastic Differential Equations Network (SDENet) as Uncertainty Quantification Method for EEG Source Localization](https://pubmed.ncbi.nlm.nih.gov/36368029/)
 
 
 
